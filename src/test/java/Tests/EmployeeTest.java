@@ -21,7 +21,7 @@ public class EmployeeTest {
     @DataProvider(name = "EmployeeData")
     public Object[][] FirstNameProvider() {
         return new Object[][]{
-                {"ran000301903", "ra1n00930030", "ra133009000"},
+                {"testdyuhdn", "tesythdjh", "tefghsyfh"},
         };
     }
 
@@ -39,10 +39,10 @@ public class EmployeeTest {
         detailsPageObject = new EmployeeDetailsPage(driver);
         Thread.sleep(2000);
         detailsPageObject.ContactDetailsPage();
-//        detailsPageObject.fillDetails();
-//        Assert.assertTrue(detailsPageObject.successAlert.isDisplayed());
-        detailsPageObject.AddAttach();
+        detailsPageObject.fillDetails();
         Assert.assertTrue(detailsPageObject.successAlert.isDisplayed());
+//        detailsPageObject.AddAttach();
+//        Assert.assertTrue(detailsPageObject.successAlert.isDisplayed());
     }
 
     @Test(priority = 2)

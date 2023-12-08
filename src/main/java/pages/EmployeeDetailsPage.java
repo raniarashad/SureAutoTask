@@ -95,11 +95,11 @@ public class EmployeeDetailsPage extends PageBase {
         State.sendKeys("state test");
         postalCode.sendKeys("1234567");
 
-        Home.sendKeys("01581173259");
-        Mobile.sendKeys("01521278233");
-        Work.sendKeys("1111515781");
-        WorkEmail.sendKeys("ra77053073@gmail.com");
-        OtherEmail.sendKeys("ran70350737@gmail.com");
+        Home.sendKeys("01115588965");
+        Mobile.sendKeys("01117774414");
+        Work.sendKeys("01115555556");
+        WorkEmail.sendKeys("ra7705899654673@gmail.com");
+        OtherEmail.sendKeys("ran7035452415410737@gmail.com");
         ClickButton(SaveBtn1);
     }
 
